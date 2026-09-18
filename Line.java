@@ -1,9 +1,10 @@
-public class Line {
+public class Line extends Point {
     private Point startPoint;
     private Point endPoint;
 
     // Constructor
     public Line(Point startPoint, Point endPoint) {
+        super(startPoint.getXCoordinate(), startPoint.getYCoordinate());
         this.startPoint = startPoint;
         this.endPoint = endPoint;
     }

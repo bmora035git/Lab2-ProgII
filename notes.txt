@@ -1,0 +1,9 @@
+The Inclass assignment is design a program to help professors 
+teach a geometry course. The program requires constructing 
+points to make lines.   
+
+The course class uses referencing and Class Relationships
+We have a course class and a faculty class.  
+
+The Faculty class may contain both name and office hours
+of a faculty memeber.  The Course class may contain a facult

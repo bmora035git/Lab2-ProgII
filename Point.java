@@ -1,11 +1,16 @@
 public class Point {
-    private double xCoordinate;
-    private double yCoordinate;
+    private double xCoordinate = 0;
+    private double yCoordinate = 0;
 
 // Constructor
     public Point(double xCoordinate, double yCoordinate) {
         this.xCoordinate = xCoordinate;
         this.yCoordinate = yCoordinate;
+    }
+
+    public Point(Point otherPoint) {
+        this.xCoordinate = otherPoint.getXCoordinate();
+        this.yCoordinate = otherPoint.getYCoordinate();
     }
 
     public void setXCoordinate(double xCoordinate) {

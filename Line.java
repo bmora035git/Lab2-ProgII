@@ -1,12 +1,22 @@
 public class Line extends Point {
-    private Point startPoint;
-    private Point endPoint;
+    private Point startPoint = null;
+    private Point endPoint = null;
 
     // Constructor
     public Line(Point startPoint, Point endPoint) {
         super(startPoint.getXCoordinate(), startPoint.getYCoordinate());
         this.startPoint = startPoint;
         this.endPoint = endPoint;
+    }
+
+    // create deep copy of the point object
+
+    public Point(Point otherPoint) {
+        
+        this.startPoint = new Point(otherPoint.getStartPoint());
+        this.endPoint = new Point(otherPoint.getEndPoint());
+
+        
     }
 
     public void setStartPoint(Point startPoint) {

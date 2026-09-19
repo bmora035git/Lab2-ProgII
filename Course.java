@@ -1,10 +1,4 @@
-// In Class 2 - Programming II
-// Course Class
-// CSCI 1437
-// Benjamin O. Morales
-// Due:  9/21/2026 
 
-/*
 
 To practice referencing, and relationship concepts, consider a course and faculty member,
 who teaches a course.  The Faculty Class contains a name and
